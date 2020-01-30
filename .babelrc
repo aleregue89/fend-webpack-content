@@ -1,0 +1,2 @@
+// adding appropiate settings to our new babel file //
+{ "presets": [ "@babel/preset-env"]}
