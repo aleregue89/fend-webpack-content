@@ -4,6 +4,8 @@ const webpack = require('webpack');
 const HtmlWebPackPlugin = require("html-webpack-plugin");
 
 module.exports = {
+    //adding a new mode //
+    mode: 'production',
     // add new entry here //
     entry: './src/client/index.js',
     devtool: 'source-map',
